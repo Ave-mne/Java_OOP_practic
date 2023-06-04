@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea8bbfb5-7da7-46af-a614-8802322b8997" name="Changes" comment="Решено ДЗ" />
+    <list default="true" id="ea8bbfb5-7da7-46af-a614-8802322b8997" name="Changes" comment="Решено ДЗ">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar2_HomeWork/Animal/Frog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar2_HomeWork/Animal/Lizard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar2_HomeWork/Animal/Snake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar2_HomeWork/Animal/base/Amphibian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar2_HomeWork/Animal/base/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar2_HomeWork/Animal/base/Reptile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar2_HomeWork/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar2_HomeWork/Soundable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar2_HomeWork/SwimSpeed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar2_HomeWork/Terrarium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seminar1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seminar1/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685442850220</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Решено ДЗ">
+      <created>1685443094101</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685443094101</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -13,7 +13,6 @@ public class Main {
 
         System.out.println("-------------------");
         System.out.println(coffeeAutomate);
-
         System.out.println("-------------------");
 
         System.out.println("Выберите напиток:");
