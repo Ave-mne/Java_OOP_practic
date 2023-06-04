@@ -27,6 +27,6 @@ public class Snake extends Reptile implements SwimSpeed, Soundable {
 
     @Override
     public int getSwimSpeed() {
-        return 2;
+        return 4;
     }
 }

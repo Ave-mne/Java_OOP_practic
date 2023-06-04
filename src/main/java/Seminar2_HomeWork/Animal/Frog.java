@@ -21,7 +21,7 @@ public class Frog extends Amphibian implements SwimSpeed, Soundable {
 
     @Override
     public int getSwimSpeed() {
-        return 3;
+        return 7;
     }
 
     @Override

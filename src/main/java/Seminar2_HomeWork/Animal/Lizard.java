@@ -23,7 +23,7 @@ public class Lizard extends Reptile implements SwimSpeed, Soundable {
 
     @Override
     public int getSwimSpeed() {
-        return 1;
+        return 2;
     }
 
     @Override
