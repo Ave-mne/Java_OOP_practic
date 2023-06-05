@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea8bbfb5-7da7-46af-a614-8802322b8997" name="Changes" comment="Проработан семинар">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar3_HomeWork/CarNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar3_HomeWork/Parking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ea8bbfb5-7da7-46af-a614-8802322b8997" name="Changes" comment="Решено ДЗ">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar3_HomeWork/LinkedUnits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seminar3_HomeWork/CarNumber.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Seminar3_HomeWork/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seminar3_HomeWork/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seminar3_HomeWork/Parking.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,12 +91,19 @@
       <option name="project" value="LOCAL" />
       <updated>1685976209359</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Решено ДЗ">
+      <created>1685977406194</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685977406194</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Решено ДЗ" />
     <MESSAGE value="Проработан семинар" />
-    <option name="LAST_COMMIT_MESSAGE" value="Проработан семинар" />
+    <MESSAGE value="Решено ДЗ" />
+    <option name="LAST_COMMIT_MESSAGE" value="Решено ДЗ" />
   </component>
 </project>
