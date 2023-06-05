@@ -1,4 +1,4 @@
-package Seminar1;
+package Seminar1_HomeWork;
 
 
 public class Coffee {

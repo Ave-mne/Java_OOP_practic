@@ -2,45 +2,27 @@ package Seminar1;
 
 public class Main {
     public static void main(String[] args) {
-        CoffeeMachine coffeeAutomate = new CoffeeMachine();
-        coffeeAutomate.addCoffee(new Coffee("Americano", 50, 150, 70, 10))
-                .addCoffee(new Coffee("Capuchino", 60, 100, 75, 5))
-                .addCoffee(new Coffee("Latte", 80, 150, 80, 10))
-                .addCoffee(new Coffee("Nescafe", 40, 200,90, 5));
+        VendingMachine vendingMachine = new VendingMachine();
+        vendingMachine.addProduct(new Chocolate("Alpen Gold", 10, "dark", "milk", 100))
+                .addProduct(new Product("Apple", 20))
+                .addProduct(new Product("Pepsi", 5))
+                .addProduct(new Cheese("Russian", 20, "soft", 100));
 
-        System.out.println("Включение...");
-        System.out.println(coffeeAutomate);
-
-        System.out.println("-------------------");
-        System.out.println(coffeeAutomate);
-        System.out.println("-------------------");
-
-        System.out.println("Выберите напиток:");
-        PrintSell(coffeeAutomate,"Nescafe");
-
-        System.out.println("-------------------");
-
-        System.out.println("Выберите напиток:");
-        PrintSell(coffeeAutomate,"Americano");
-
-
-
-        System.out.println("-------------------");
-
-        System.out.println("Выберите напиток: ");
-        PrintSell(coffeeAutomate,"Цикорий");
-
-
-        System.out.println("-------------------");
-        System.out.println(coffeeAutomate);
-        System.out.println("Выключение...");
-    }
-
-    public static void PrintSell (CoffeeMachine machine, String nameCafe){
-        try{
-            System.out.println(machine.sell(nameCafe));
-        } catch (Exception e) {
-            System.out.println("Товар не найден");
+        for (Product prd: vendingMachine.getGoods()) {
+            System.out.println(prd);
         }
+        Product foundProduct = vendingMachine.findProduct("Apple");
+
+        System.out.println(foundProduct);
+
+        System.out.println("---------------");
+        System.out.println("Sale");
+        Product salePrd = vendingMachine.saleProduct("Apple");
+        System.out.println(salePrd);
+        Product salePrd2 = vendingMachine.saleProduct("Pepsi");
+        System.out.println(salePrd2);
+        System.out.println(vendingMachine.getCash());
+
+        System.out.println(vendingMachine);
     }
 }
