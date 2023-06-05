@@ -16,18 +16,23 @@ public class Main {
         for (String value : linkedUnits) {
             System.out.println(value);
         }
+        System.out.println("----------");
 
-        System.out.println("---remove-index-3---");
-        System.out.println(linkedUnits.remove(3));
+        System.out.println("---remove-index-2---");
+        System.out.println(linkedUnits.remove(2));
 
-        System.out.println("---set-element-index-1--");
-        linkedUnits.set("new value", 1);
+        System.out.println("----------");
+
+        System.out.println("---set-element-index-3--");
+        linkedUnits.set("new value", 3);
+
+        System.out.println("----------");
 
         System.out.println("---get-elements-by-index---");
         for (int i = 0; i < linkedUnits.size(); i++) {
             System.out.println(linkedUnits.get(i));
         }
-
+        System.out.println("----------");
         System.out.println("---clear---");
         linkedUnits.clear();
         System.out.printf("list size: %d\n", linkedUnits.size());

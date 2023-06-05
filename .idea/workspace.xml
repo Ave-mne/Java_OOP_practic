@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea8bbfb5-7da7-46af-a614-8802322b8997" name="Changes" comment="Решено ДЗ">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar3_HomeWork/LinkedUnits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Seminar3_HomeWork/CarNumber.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Seminar3_HomeWork/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seminar3_HomeWork/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Seminar3_HomeWork/Parking.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685977406194</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Решено ДЗ">
+      <created>1685977748356</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1685977748356</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
