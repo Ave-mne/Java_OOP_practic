@@ -4,32 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea8bbfb5-7da7-46af-a614-8802322b8997" name="Changes" comment="Решено ДЗ">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar1_HomeWork/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar2/Animals/Base/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar2/Animals/Base/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar2/Animals/Base/Herbivores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar2/Animals/Base/Predator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar2/Animals/Bear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar2/Animals/Cow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar2/Animals/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar2/Animals/Owl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar2/FlySpeed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar2/Radio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar2/RunSpeed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar2/SwimSpeed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar2/Zoo/Soundable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar2/Zoo/Zoo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar3/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar3/Personal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar3/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar3_HomeWork/Main.java" afterDir="false" />
+    <list default="true" id="ea8bbfb5-7da7-46af-a614-8802322b8997" name="Changes" comment="Проработан семинар">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar3_HomeWork/CarNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar3_HomeWork/Parking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Seminar1/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seminar1_HomeWork/Coffee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Seminar1/CoffeeMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seminar1_HomeWork/CoffeeMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Seminar1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seminar1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seminar3_HomeWork/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seminar3_HomeWork/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,11 +84,19 @@
       <option name="project" value="LOCAL" />
       <updated>1685880644426</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Проработан семинар">
+      <created>1685976209359</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685976209359</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Решено ДЗ" />
-    <option name="LAST_COMMIT_MESSAGE" value="Решено ДЗ" />
+    <MESSAGE value="Проработан семинар" />
+    <option name="LAST_COMMIT_MESSAGE" value="Проработан семинар" />
   </component>
 </project>
