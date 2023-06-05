@@ -113,6 +113,4 @@ public class LinkedUnits<E> implements Iterable<E> {
             this.next = next;
         }
     }
-
-
 }

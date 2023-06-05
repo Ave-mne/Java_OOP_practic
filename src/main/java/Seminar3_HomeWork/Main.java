@@ -9,6 +9,7 @@ public class Main {
         linkedUnits.add("--3--");
         linkedUnits.add("--4--");
         linkedUnits.add("--5--");
+        linkedUnits.add("--6--");
 
         System.out.printf("list size: %d\n", linkedUnits.size());
 
