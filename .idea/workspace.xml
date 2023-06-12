@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea8bbfb5-7da7-46af-a614-8802322b8997" name="Changes" comment="Проработан семинар">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar4_HomeWork/Armors/Armor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar4_HomeWork/Armors/Leather.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar4_HomeWork/Armors/Plate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar4_HomeWork/Battle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar4_HomeWork/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar4_HomeWork/Team.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar4_HomeWork/Warrior/Archer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar4_HomeWork/Warrior/Infantryman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar4_HomeWork/Warrior/Warrior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar4_HomeWork/Weapons/MeleeWeapons/Axe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar4_HomeWork/Weapons/MeleeWeapons/Melee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar4_HomeWork/Weapons/MeleeWeapons/Sword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar4_HomeWork/Weapons/RangedWeapons/Bow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar4_HomeWork/Weapons/RangedWeapons/CrossBow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar4_HomeWork/Weapons/RangedWeapons/Ranged.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar4_HomeWork/Weapons/Weapons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ea8bbfb5-7da7-46af-a614-8802322b8997" name="Changes" comment="Решено ДЗ" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -139,12 +121,19 @@
       <option name="project" value="LOCAL" />
       <updated>1686557412298</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Решено ДЗ">
+      <created>1686559495818</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1686559495818</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Решено ДЗ" />
     <MESSAGE value="Проработан семинар" />
-    <option name="LAST_COMMIT_MESSAGE" value="Проработан семинар" />
+    <MESSAGE value="Решено ДЗ" />
+    <option name="LAST_COMMIT_MESSAGE" value="Решено ДЗ" />
   </component>
 </project>

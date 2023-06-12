@@ -36,4 +36,5 @@ public class Main {
         System.out.println("---fight---");
         battle1.fight();
     }
+
 }
