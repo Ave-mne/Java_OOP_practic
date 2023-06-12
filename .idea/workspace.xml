@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea8bbfb5-7da7-46af-a614-8802322b8997" name="Changes" comment="Решено ДЗ">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Seminar3_HomeWork/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seminar3_HomeWork/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar4/Battle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar4/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar4/Warrior/Archer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar4/Warrior/Infantryman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar4/Warrior/Warrior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar4/Weapons/MeleeWeapons/Axe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar4/Weapons/MeleeWeapons/Melee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar4/Weapons/MeleeWeapons/Sword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar4/Weapons/RangedWeapons/Bow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar4/Weapons/RangedWeapons/CrossBow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar4/Weapons/RangedWeapons/Ranged.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar4/Weapons/Weapons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +115,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685977748356</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Решено ДЗ">
+      <created>1685978335804</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1685978335804</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Решено ДЗ">
+      <created>1685978446285</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1685978446285</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
