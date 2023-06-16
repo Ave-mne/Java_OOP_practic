@@ -1,4 +1,4 @@
-package Seminar6_HomeWork.Model;
+package Seminar6_HomeWork_Notes.Model;
 
 import java.util.ArrayList;
 import java.util.List;

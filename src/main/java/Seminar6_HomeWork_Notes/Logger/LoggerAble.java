@@ -1,4 +1,4 @@
-package Seminar6_HomeWork.Logger;
+package Seminar6_HomeWork_Notes.Logger;
 
 
 public interface LoggerAble {

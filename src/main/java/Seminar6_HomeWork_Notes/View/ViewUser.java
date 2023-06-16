@@ -1,10 +1,9 @@
-package Seminar6_HomeWork.View;
+package Seminar6_HomeWork_Notes.View;
 
 
 import java.util.Scanner;
-import Seminar6_HomeWork.Controllers.UserController;
-import Seminar6_HomeWork.Model.Fields;
-import Seminar6_HomeWork.Model.User;
+import Seminar6_HomeWork_Notes.Controllers.UserController;
+import Seminar6_HomeWork_Notes.Model.User;
 
 
 public class ViewUser {

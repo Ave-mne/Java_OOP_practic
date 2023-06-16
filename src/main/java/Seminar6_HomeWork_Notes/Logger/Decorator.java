@@ -1,10 +1,10 @@
-package Seminar6_HomeWork.Logger;
+package Seminar6_HomeWork_Notes.Logger;
 
 import java.util.List;
 
-import Seminar6_HomeWork.Model.Fields;
-import Seminar6_HomeWork.Model.Repository;
-import Seminar6_HomeWork.Model.User;
+import Seminar6_HomeWork_Notes.Model.Fields;
+import Seminar6_HomeWork_Notes.Model.Repository;
+import Seminar6_HomeWork_Notes.Model.User;
 
 public class Decorator implements Repository{
     private Repository repo;

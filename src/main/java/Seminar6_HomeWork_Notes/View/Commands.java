@@ -1,4 +1,4 @@
-package Seminar6_HomeWork.View;
+package Seminar6_HomeWork_Notes.View;
 
 public enum Commands {
     NONE,
