@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea8bbfb5-7da7-46af-a614-8802322b8997" name="Changes" comment="Решено ДЗ" />
+    <list default="true" id="ea8bbfb5-7da7-46af-a614-8802322b8997" name="Changes" comment="Решено ДЗ">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar6_HomeWork/Controllers/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar6_HomeWork/Logger/Decorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar6_HomeWork/Logger/LoggerAble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar6_HomeWork/Logger/LoggerTerminal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar6_HomeWork/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar6_HomeWork/Model/Fields.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar6_HomeWork/Model/FileOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar6_HomeWork/Model/FileOperationImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar6_HomeWork/Model/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar6_HomeWork/Model/RepositoryFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar6_HomeWork/Model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar6_HomeWork/Model/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar6_HomeWork/Users.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar6_HomeWork/View/Commands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar6_HomeWork/View/ViewUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +49,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Андрей/IdeaProjects/Java_OOP_practic"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -128,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686559495818</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Решено ДЗ">
+      <created>1686563350549</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1686563350549</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
