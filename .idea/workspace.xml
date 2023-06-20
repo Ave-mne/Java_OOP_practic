@@ -5,26 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea8bbfb5-7da7-46af-a614-8802322b8997" name="Changes" comment="Решено ДЗ">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar6_homeWork_solid/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar6_homeWork_solid/Persister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar6_homeWork_solid/ReportUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar6_homeWork_solid/Reportable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar6_homeWork_solid/Saveable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar6_homeWork_solid/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Seminar6_HomeWork/Controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seminar6_HomeWork_Notes/Controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Seminar6_HomeWork/Logger/Decorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seminar6_HomeWork_Notes/Logger/Decorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Seminar6_HomeWork/Logger/LoggerAble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seminar6_HomeWork_Notes/Logger/LoggerAble.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Seminar6_HomeWork/Logger/LoggerTerminal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seminar6_HomeWork_Notes/Logger/LoggerTerminal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Seminar6_HomeWork/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seminar6_HomeWork_Notes/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Seminar6_HomeWork/Model/Fields.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seminar6_HomeWork_Notes/Model/Fields.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Seminar6_HomeWork/Model/FileOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seminar6_HomeWork_Notes/Model/FileOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Seminar6_HomeWork/Model/FileOperationImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seminar6_HomeWork_Notes/Model/FileOperationImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Seminar6_HomeWork/Model/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seminar6_HomeWork_Notes/Model/Repository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Seminar6_HomeWork/Model/RepositoryFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seminar6_HomeWork_Notes/Model/RepositoryFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Seminar6_HomeWork/Model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seminar6_HomeWork_Notes/Model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Seminar6_HomeWork/Model/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seminar6_HomeWork_Notes/Model/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Seminar6_HomeWork/View/Commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seminar6_HomeWork_Notes/View/Commands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Seminar6_HomeWork/View/ViewUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seminar6_HomeWork_Notes/View/ViewUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar7_HomeWork/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar7_HomeWork/Model/Calculator/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar7_HomeWork/Model/Calculator/CanCalculate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar7_HomeWork/Model/Calculator/ICanCalculateFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar7_HomeWork/Model/ComplexNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar7_HomeWork/Model/Logger/FileLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar7_HomeWork/Model/Logger/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar7_HomeWork/Model/Logger/LogCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar7_HomeWork/Model/Logger/LogCanCalculateFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar7_HomeWork/Model/Logger/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar7_HomeWork/View/ConsoleView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,13 +42,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Андрей/IdeaProjects/Java_OOP_practic"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Андрей/IdeaProjects/Java_OOP_practic&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -164,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686944475919</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Решено ДЗ">
+      <created>1686945080130</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1686945080130</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
