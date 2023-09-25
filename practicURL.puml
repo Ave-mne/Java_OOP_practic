@@ -1,0 +1,615 @@
+@startuml
+class Seminar7_HomeWork.Model.Calculator.Calculator {
+- ComplexNumber complexNumber
++ void sum(ComplexNumber)
++ void multiply(ComplexNumber)
++ void subtract(ComplexNumber)
++ void divide(ComplexNumber)
++ ComplexNumber result()
+}
+abstract class Seminar2.Animals.Base.Herbivores {
++ String feed()
+}
+interface Seminar6_HomeWork_Notes.Model.FileOperation {
+~ List<String> readAllLines()
+~ void saveAllLines(List<String>)
+}
+class Seminar1.Cheese {
+- String cheeseType
+- double weight
++ String toString()
+}
+class Seminar4.Main {
++ {static} void main(String[])
+}
+class Seminar1_HomeWork.CoffeeMachine {
+- List<Coffee> cafes
+- double money
++ CoffeeMachine addCoffee(Coffee)
++ Coffee searchCoffee(String)
++ Coffee sell(String)
++ String toString()
+}
+class Seminar4.Weapons.MeleeWeapons.Axe {
++ int damage()
++ String toString()
+}
+class Seminar3.Personal {
+- List<User> users
++ Iterator<User> iterator()
++ Personal addUser(User)
++ List<User> getUsers()
+}
+class Seminar3.Personal$PersonalIterator {
+~ int index
++ boolean hasNext()
++ User next()
+}
+interface Seminar4.Weapons.RangedWeapons.Ranged {
+~ int distance()
+}
+class Seminar4_HomeWork.Armors.Leather {
++ int getDefence()
++ String toString()
+}
+class Seminar4_HomeWork.Weapons.RangedWeapons.CrossBow {
++ int damage()
++ int distance()
++ String toString()
+}
+abstract class Seminar4.Warrior.Warrior {
+- String name
+- int healthPoint
+- W weapon
++ String getName()
++ int getHealthPoint()
++ W getWeapon()
++ void setHealthPoint(int)
++ void setWeapon(W)
++ int hit()
++ void reduceHealth(int)
++ String toString()
+}
+abstract class Seminar4_HomeWork.Warrior.Warrior {
+- String name
+- int healthPoint
+- W weapon
+- A armor
++ String getName()
++ int getHealthPoint()
++ W getWeapon()
++ A getArmor()
++ void setHealthPoint(int)
++ void setWeapon(W)
++ void setArmor(A)
++ int hit()
++ void reduceHealth(int)
++ String toString()
+}
+class Seminar3.Main {
++ {static} void main(String[])
+}
+interface Seminar4_HomeWork.Weapons.Weapons {
+~ int damage()
+}
+class Seminar3.User {
+- String firstName
+- String lastName
+- int age
+- Personal personal
++ String toString()
++ int compareTo(User)
++ void setPersonal(Personal)
++ Personal getPersonal()
+}
+class Seminar2.Animals.Bear {
++ String sound()
++ String toString()
++ int getRunSpeed()
++ int getSwimSpeed()
+}
+class Seminar3_HomeWork.Main {
++ {static} void main(String[])
+}
+class Seminar4.Weapons.RangedWeapons.CrossBow {
++ int damage()
++ int distance()
++ String toString()
+}
+interface Seminar6_homeWork_solid.Saveable {
++ void save()
+}
+class Seminar2.Animals.Owl {
++ String sound()
++ String feed()
++ int getFlySpeed()
++ int getRunSpeed()
+}
+class Seminar4_HomeWork.Main {
++ {static} void main(String[])
+}
+class Seminar7_HomeWork.Main {
++ {static} void main(String[])
+}
+class Seminar2.Zoo.Zoo {
+- Radio radio
+- List<Animal> zoo
++ Zoo addAnimal(Animal)
++ String toString()
+- List<Soundable> getSoundable()
++ String getSound()
++ List<RunSpeed> runners()
++ RunSpeed getRunnerChampion()
++ List<FlySpeed> flyers()
++ List<SwimSpeed> swimmers()
++ SwimSpeed getSwimmerChampion()
++ FlySpeed getFlyerChampion()
+}
+class Seminar4.Weapons.MeleeWeapons.Sword {
++ int damage()
++ String toString()
+}
+class Seminar6_homeWork_solid.User {
+- String name
++ String getName()
++ void save()
++ void report()
+}
+class Seminar2.Animals.Duck {
++ String sound()
++ String feed()
++ int getRunSpeed()
++ String toString()
++ int getFlySpeed()
++ int getSwimSpeed()
+}
+class Seminar4_HomeWork.Team {
+- List<T> team
++ void add(T)
++ Iterator<T> iterator()
++ int getTeamHealth()
++ int maxAttackDistance()
++ int getTeamAttack()
++ int getMinTeamDefence()
++ String toString()
+}
+abstract class Seminar2.Animals.Base.Predator {
++ String feed()
+}
+class Seminar6_HomeWork_Notes.Logger.Decorator {
+- Repository repo
+- LoggerTerminal logger
++ List<User> getAllUsers()
++ String CreateUser(User)
++ void UpdateUser(User,Fields,String)
++ void delUser(User)
+}
+class Seminar6_HomeWork_Notes.View.ViewUser {
+- UserController userController
++ void run()
+- void read()
+- void list()
+- void create()
+- void delete()
+- void showHelp()
+- String prompt(String)
+}
+class Seminar4_HomeWork.Warrior.Archer {
++ int distance()
++ String toString()
+}
+abstract class Seminar2_HomeWork.Animal.base.Reptile {
++ String toString()
+}
+class Seminar1.VendingMachine {
+- List<Product> goods
+- double cash
++ VendingMachine addProduct(Product)
++ List<Product> getGoods()
++ Product findProduct(String)
++ double getCash()
++ Product saleProduct(String)
++ String toString()
+}
+enum Seminar6_HomeWork_Notes.Model.Fields {
++  HEADER
++  TEXT
+}
+interface Seminar6_homeWork_solid.Reportable {
++ void report()
+}
+class Seminar4_HomeWork.Battle {
+- Warrior w1
+- Warrior w2
++ void fight()
+- boolean isDead(Warrior)
+}
+class Seminar7_HomeWork.Model.Logger.LogCalculator {
+~ Calculator calculator
+~ Logger logger
++ void sum(ComplexNumber)
++ void multiply(ComplexNumber)
++ void subtract(ComplexNumber)
++ void divide(ComplexNumber)
++ ComplexNumber result()
+}
+class Seminar6_HomeWork_Notes.Logger.LoggerTerminal {
++ void logg(String)
+}
+abstract class Seminar2.Animals.Base.Bird {
+}
+interface Seminar4.Weapons.Weapons {
+~ int damage()
+}
+abstract class Seminar2.Animals.Base.Animal {
+# String name
++ {abstract}String sound()
++ {abstract}String feed()
++ String toString()
+}
+class Seminar1.Main {
++ {static} void main(String[])
+}
+interface Seminar4_HomeWork.Weapons.MeleeWeapons.Melee {
+}
+interface Seminar7_HomeWork.Model.Calculator.ICanCalculateFactory {
+~ CanCalculate create(ComplexNumber)
+}
+interface Seminar2.RunSpeed {
+~ int getRunSpeed()
+}
+class Seminar2.Radio {
++ String sound()
+}
+class Seminar7_HomeWork.Model.Logger.Log {
++ void log(String)
+}
+class Seminar4.Battle {
+- Warrior w1
+- Warrior w2
++ void fight()
+}
+class Seminar4.Warrior.Infantryman {
++ String toString()
+}
+class Seminar1.Product {
+- String name
+- double price
++ String toString()
++ String getProductName()
++ Double getPrice()
+}
+class Seminar4_HomeWork.Weapons.MeleeWeapons.Sword {
++ int damage()
++ String toString()
+}
+class Seminar6_homeWork_solid.Persister {
+- User user
++ void save()
+}
+class Seminar4_HomeWork.Weapons.MeleeWeapons.Axe {
++ int damage()
++ String toString()
+}
+interface Seminar7_HomeWork.Model.Logger.Logger {
+~ void log(String)
+}
+class Seminar7_HomeWork.Model.ComplexNumber {
+- int a
+- int b
++ int getA()
++ int getB()
++ void setA(int)
++ void setB(int)
++ String toString()
+}
+interface Seminar2_HomeWork.SwimSpeed {
+~ int getSwimSpeed()
+}
+interface Seminar7_HomeWork.Model.Calculator.CanCalculate {
+~ void sum(ComplexNumber)
+~ void multiply(ComplexNumber)
+~ void subtract(ComplexNumber)
+~ void divide(ComplexNumber)
+~ ComplexNumber result()
+}
+class Seminar4.Weapons.RangedWeapons.Bow {
++ int damage()
++ int distance()
++ String toString()
+}
+class Seminar4.Warrior.Archer {
++ int distance()
++ String toString()
+}
+interface Seminar6_HomeWork_Notes.Model.Repository {
+~ List<User> getAllUsers()
+~ String CreateUser(User)
+~ void UpdateUser(User,Fields,String)
+~ void delUser(User)
+}
+class Seminar6_HomeWork_Notes.Main {
++ {static} void main(String[])
+}
+class Seminar3_HomeWork.LinkedUnits {
+- int size
+- Unit<E> first
+- Unit<E> last
++ void add(E)
++ void clear()
+- Unit<E> getUnit(int)
++ E get(int)
++ E remove(int)
++ void isIndexExist(int)
++ void set(E,int)
++ int size()
++ Iterator<E> iterator()
+}
+class Seminar3_HomeWork.LinkedUnits$Unit {
+~ Unit<E> previous
+~ E element
+~ Unit<E> next
+}
+class Seminar6_HomeWork_Notes.Model.RepositoryFile {
+- UserMapper mapper
+- FileOperation fileOperation
++ List<User> getAllUsers()
++ void UpdateUser(User,Fields,String)
++ void saveUser(User)
++ String CreateUser(User)
++ void delUser(User)
+}
+interface Seminar6_HomeWork_Notes.Logger.LoggerAble {
++ void logg(String)
+}
+class Seminar6_HomeWork_Notes.Controllers.UserController {
+- Repository repository
++ void saveUser(User)
++ void updateUser(User,Fields,String)
++ User readUser(String)
++ List<User> getUsers()
++ void deleteUser(User)
+}
+abstract class Seminar2_HomeWork.Animal.base.Animal {
+# String name
++ String toString()
++ {abstract}String makeSound()
++ {abstract}String feed()
+}
+class Seminar4.Team {
+- List<T> team
++ void add(T)
++ Iterator<T> iterator()
++ int getTeamHealth()
++ int maxAttackDistance()
++ int getTeamAttack()
++ String toString()
+}
+interface Seminar2.FlySpeed {
+~ int getFlySpeed()
+}
+abstract class Seminar2_HomeWork.Animal.base.Amphibian {
++ String toString()
+}
+interface Seminar2.Zoo.Soundable {
+~ String sound()
+}
+class Seminar2_HomeWork.Main {
++ {static} void main(String[])
+}
+class Seminar1.Chocolate {
+- String color
+- String chocType
+- int calories
++ String toString()
+}
+class Seminar2_HomeWork.Animal.Frog {
++ String makeSound()
++ String feed()
++ int getSwimSpeed()
++ String toString()
+}
+class Seminar3.Company {
+- User user
++ Iterator<User> iterator()
++ List<User> getTreeDeep(User)
+}
+interface Seminar2_HomeWork.Soundable {
+~ String makeSound()
+}
+class Seminar6_HomeWork_Notes.Model.UserMapper {
++ String map(User)
++ User map(String)
+}
+class Seminar6_homeWork_solid.Main {
++ {static} void main(String[])
+}
+class Seminar2.Main {
++ {static} void main(String[])
+}
+class Seminar2.Animals.Cow {
++ String sound()
++ String toString()
++ int getRunSpeed()
+}
+class Seminar1_HomeWork.Main {
++ {static} void main(String[])
++ {static} void PrintSell(CoffeeMachine,String)
+}
+class Seminar4_HomeWork.Armors.Plate {
++ int getDefence()
++ String toString()
+}
+class Seminar2_HomeWork.Animal.Lizard {
++ String makeSound()
++ String feed()
++ int getSwimSpeed()
++ String toString()
+}
+class Seminar7_HomeWork.View.ConsoleView {
+- Scanner scanner
+- ICanCalculateFactory iCanCalculateFactory
++ void run()
+- ComplexNumber getArgument()
+}
+class Seminar1_HomeWork.Coffee {
+- String name
+- double price
+- int temperature
+- int volume
+- int counter
++ String getName()
++ void setName(String)
++ boolean sellCounter()
++ double getPrice()
++ void setPrice(double)
++ int getTemperature()
++ void setTemperature(int)
++ int getVolume()
++ void setVolume(int)
++ String toString()
+}
+enum Seminar6_HomeWork_Notes.View.Commands {
++  NONE
++  READ
++  CREATE
++  LIST
++  HELP
++  DELETE
++  EXIT
+}
+interface Seminar4_HomeWork.Armors.Armor {
+~ int getDefence()
+}
+class Seminar6_HomeWork_Notes.Model.User {
+- String id
+- String header
+- String text
++ String getId()
++ void setId(String)
++ String getHeader()
++ void setHeader(String)
++ String getText()
++ void setText(String)
++ String toString()
+}
+interface Seminar2.SwimSpeed {
+~ int getSwimSpeed()
+}
+class Seminar2_HomeWork.Terrarium {
+- List<Animal> terrarium
++ Terrarium addAnimal(Animal)
++ String toString()
+- List<SwimSpeed> getSwimmers()
++ SwimSpeed getFastestSwimmer()
+- List<Soundable> getSoundable()
++ String getSounds()
+}
+class Seminar4_HomeWork.Weapons.RangedWeapons.Bow {
++ int damage()
++ int distance()
++ String toString()
+}
+class Seminar7_HomeWork.Model.Logger.LogCanCalculateFactory {
+~ Logger logger
++ CanCalculate create(ComplexNumber)
+}
+interface Seminar4_HomeWork.Weapons.RangedWeapons.Ranged {
+~ int distance()
+}
+class Seminar7_HomeWork.Model.Logger.FileLogger {
+~ String fileName
+~ DateTimeFormatter fileNameDate
++ void log(String)
+}
+class Seminar4_HomeWork.Warrior.Infantryman {
++ String toString()
+}
+class Seminar2_HomeWork.Animal.Snake {
++ String makeSound()
++ String feed()
++ String toString()
++ int getSwimSpeed()
+}
+class Seminar6_homeWork_solid.ReportUser {
+- User user
++ void report()
+}
+interface Seminar4.Weapons.MeleeWeapons.Melee {
+}
+class Seminar6_HomeWork_Notes.Model.FileOperationImpl {
+- String fileName
++ List<String> readAllLines()
++ void saveAllLines(List<String>)
+}
+
+
+Seminar7_HomeWork.Model.Calculator.CanCalculate <|.. Seminar7_HomeWork.Model.Calculator.Calculator
+Seminar2.Animals.Base.Animal <|-- Seminar2.Animals.Base.Herbivores
+Seminar1.Product <|-- Seminar1.Cheese
+Seminar4.Weapons.MeleeWeapons.Melee <|.. Seminar4.Weapons.MeleeWeapons.Axe
+Seminar3.Iterable <|.. Seminar3.Personal
+Seminar3.Personal +.. Seminar3.Personal$PersonalIterator
+Seminar3.Iterator <|.. Seminar3.Personal$PersonalIterator
+Seminar4.Weapons.Weapons <|-- Seminar4.Weapons.RangedWeapons.Ranged
+Seminar4_HomeWork.Armors.Armor <|.. Seminar4_HomeWork.Armors.Leather
+Seminar4_HomeWork.Weapons.RangedWeapons.Ranged <|.. Seminar4_HomeWork.Weapons.RangedWeapons.CrossBow
+Seminar3.Comparable <|.. Seminar3.User
+Seminar2.RunSpeed <|.. Seminar2.Animals.Bear
+Seminar2.SwimSpeed <|.. Seminar2.Animals.Bear
+Seminar2.Animals.Base.Predator <|-- Seminar2.Animals.Bear
+Seminar4.Weapons.RangedWeapons.Ranged <|.. Seminar4.Weapons.RangedWeapons.CrossBow
+Seminar2.FlySpeed <|.. Seminar2.Animals.Owl
+Seminar2.RunSpeed <|.. Seminar2.Animals.Owl
+Seminar2.Animals.Base.Bird <|-- Seminar2.Animals.Owl
+Seminar4.Weapons.MeleeWeapons.Melee <|.. Seminar4.Weapons.MeleeWeapons.Sword
+Seminar2.RunSpeed <|.. Seminar2.Animals.Duck
+Seminar2.FlySpeed <|.. Seminar2.Animals.Duck
+Seminar2.SwimSpeed <|.. Seminar2.Animals.Duck
+Seminar2.Animals.Base.Bird <|-- Seminar2.Animals.Duck
+Seminar4_HomeWork.Iterable <|.. Seminar4_HomeWork.Team
+Seminar2.Animals.Base.Animal <|-- Seminar2.Animals.Base.Predator
+Seminar6_HomeWork_Notes.Model.Repository <|.. Seminar6_HomeWork_Notes.Logger.Decorator
+Seminar4_HomeWork.Warrior.Warrior <|-- Seminar4_HomeWork.Warrior.Archer
+Seminar2_HomeWork.Animal.base.Animal <|-- Seminar2_HomeWork.Animal.base.Reptile
+Seminar7_HomeWork.Model.Calculator.CanCalculate <|.. Seminar7_HomeWork.Model.Logger.LogCalculator
+Seminar6_HomeWork_Notes.Logger.LoggerAble <|.. Seminar6_HomeWork_Notes.Logger.LoggerTerminal
+Seminar2.Animals.Base.Animal <|-- Seminar2.Animals.Base.Bird
+Seminar2.Zoo.Soundable <|.. Seminar2.Animals.Base.Animal
+Seminar4_HomeWork.Weapons.Weapons <|-- Seminar4_HomeWork.Weapons.MeleeWeapons.Melee
+Seminar2.Zoo.Soundable <|.. Seminar2.Radio
+Seminar7_HomeWork.Model.Logger.Logger <|.. Seminar7_HomeWork.Model.Logger.Log
+Seminar4.Warrior.Warrior <|-- Seminar4.Warrior.Infantryman
+Seminar4_HomeWork.Weapons.MeleeWeapons.Melee <|.. Seminar4_HomeWork.Weapons.MeleeWeapons.Sword
+Seminar6_homeWork_solid.Saveable <|.. Seminar6_homeWork_solid.Persister
+Seminar4_HomeWork.Weapons.MeleeWeapons.Melee <|.. Seminar4_HomeWork.Weapons.MeleeWeapons.Axe
+Seminar4.Weapons.RangedWeapons.Ranged <|.. Seminar4.Weapons.RangedWeapons.Bow
+Seminar4.Warrior.Warrior <|-- Seminar4.Warrior.Archer
+Seminar3_HomeWork.Iterable <|.. Seminar3_HomeWork.LinkedUnits
+Seminar3_HomeWork.LinkedUnits +.. Seminar3_HomeWork.LinkedUnits$Unit
+Seminar6_HomeWork_Notes.Model.Repository <|.. Seminar6_HomeWork_Notes.Model.RepositoryFile
+Seminar4.Iterable <|.. Seminar4.Team
+Seminar2_HomeWork.Animal.base.Animal <|-- Seminar2_HomeWork.Animal.base.Amphibian
+Seminar1.Product <|-- Seminar1.Chocolate
+Seminar2_HomeWork.SwimSpeed <|.. Seminar2_HomeWork.Animal.Frog
+Seminar2_HomeWork.Soundable <|.. Seminar2_HomeWork.Animal.Frog
+Seminar2_HomeWork.Animal.base.Amphibian <|-- Seminar2_HomeWork.Animal.Frog
+Seminar3.Iterable <|.. Seminar3.Company
+Seminar2.RunSpeed <|.. Seminar2.Animals.Cow
+Seminar2.Animals.Base.Herbivores <|-- Seminar2.Animals.Cow
+Seminar4_HomeWork.Armors.Armor <|.. Seminar4_HomeWork.Armors.Plate
+Seminar2_HomeWork.SwimSpeed <|.. Seminar2_HomeWork.Animal.Lizard
+Seminar2_HomeWork.Soundable <|.. Seminar2_HomeWork.Animal.Lizard
+Seminar2_HomeWork.Animal.base.Reptile <|-- Seminar2_HomeWork.Animal.Lizard
+Seminar4_HomeWork.Weapons.RangedWeapons.Ranged <|.. Seminar4_HomeWork.Weapons.RangedWeapons.Bow
+Seminar7_HomeWork.Model.Calculator.ICanCalculateFactory <|.. Seminar7_HomeWork.Model.Logger.LogCanCalculateFactory
+Seminar4_HomeWork.Weapons.Weapons <|-- Seminar4_HomeWork.Weapons.RangedWeapons.Ranged
+Seminar7_HomeWork.Model.Logger.Logger <|.. Seminar7_HomeWork.Model.Logger.FileLogger
+Seminar4_HomeWork.Warrior.Warrior <|-- Seminar4_HomeWork.Warrior.Infantryman
+Seminar2_HomeWork.SwimSpeed <|.. Seminar2_HomeWork.Animal.Snake
+Seminar2_HomeWork.Soundable <|.. Seminar2_HomeWork.Animal.Snake
+Seminar2_HomeWork.Animal.base.Reptile <|-- Seminar2_HomeWork.Animal.Snake
+Seminar6_homeWork_solid.Reportable <|.. Seminar6_homeWork_solid.ReportUser
+Seminar4.Weapons.Weapons <|-- Seminar4.Weapons.MeleeWeapons.Melee
+Seminar6_HomeWork_Notes.Model.FileOperation <|.. Seminar6_HomeWork_Notes.Model.FileOperationImpl
+@enduml
